@@ -56,19 +56,8 @@
     <Content Include="web.config" />
     <Content Include="Default.aspx" />
     <Content Include="GetDis.ashx" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\bootstrap.min.js" />
-    <Content Include="Content\jquery.min.js" />
-    <Content Include="Content\main.css" />
-    <Content Include="Content\main.js" />
-    <Content Include="Content\crowd.jpg" />
     <Content Include="About.aspx" />
-    <Content Include="Content\images\logo-tweetdis.png" />
-    <Content Include="Content\images\logo-tweetdis-black-white.png" />
     <Content Include="packages.config" />
-    <Content Include="Content\images\febi.png" />
-    <Content Include="Content\images\isham.png" />
-    <Content Include="Content\images\majid.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -93,14 +82,5 @@
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <MonoDevelop>
-      <Properties>
-        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
-      </Properties>
-    </MonoDevelop>
-  </ProjectExtensions>
-  <ItemGroup>
-    <Folder Include="OAuth\" />
-  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
 </Project>
