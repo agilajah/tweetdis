@@ -1,0 +1,109 @@
+body {
+  background: url(crowd.jpg);
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: -20;
+}
+
+.blocker {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -10;
+}
+
+.tab-dinas.active {
+  background-color: hsl(219, 9%, 24%);
+}
+
+.tab-dinas:hover {
+  background-color: hsl(219, 9%, 36%);
+}
+
+.light-text {
+  color: #fff;
+}
+
+.details-wrapper {
+  text-align: center;
+}
+
+.tweet-wrapper, .lokasi-wrapper {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-jumbotron {
+  background-color: #282828;
+  margin-bottom: 0;
+  min-height: 100vh;
+  padding-top: 10vh;
+}
+
+.main-logo {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/*
+.blanker {
+  min-height: 70vh;
+}
+
+.about-logo-image-wrapper {
+  min-height: 30vh;
+}*/
+
+.profile-img {
+  width:50%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-link-container {
+  position: absolute;;
+  right: 1em;
+  top: 1em;
+  z-index: 500;
+}
+
+#result.no-result {
+  display: none;
+}
+
+#to-top-link {
+  position: fixed;
+  z-index: 1000;
+
+  bottom: 5vh;
+  right: 5vh;
+  display: block;
+  line-height: 2em;
+  width: 2em;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+  box-sizing: content-box;
+  padding: 10px;
+}
+
+video.fullscreen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
