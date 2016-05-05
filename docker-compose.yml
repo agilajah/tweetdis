@@ -1,0 +1,7 @@
+version: '2'
+services:
+  tweetdis:
+    build: .
+    ports:
+      - "52211:9000"
+    restart: always
