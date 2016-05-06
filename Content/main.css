@@ -1,5 +1,5 @@
 body {
-  background: url(city.jpg);
+  background: url('../Content/city.jpg');
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
