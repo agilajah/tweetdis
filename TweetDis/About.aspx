@@ -3,8 +3,8 @@
 <html>
 <head>
 	<title>Tentang Kami</title>
-	<link rel="stylesheet" href="https://misc.adimaja.com/stima-tb3/Content/bootstrap.min.css">
-	<link rel="stylesheet" href="https://misc.adimaja.com/stima-tb3/Content/main.css">
+	<link rel="stylesheet" href="~/Content/bootstrap.min.css">
+	<link rel="stylesheet" href="~/Content/main.css">
 </head>
 <body>
 	<div class="about-jumbotron">
@@ -12,7 +12,7 @@
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3">
 					<div class="about-logo-image-wrapper">
-						<img src="https://misc.adimaja.com/stima-tb3/Content/images/logo-tweetdis.png" alt="" class="img-responsive">
+						<img src="~/Content/images/logo-tweetdis.png" alt="" class="img-responsive">
 					</div>
 
 					<div class="text-center light-text">
