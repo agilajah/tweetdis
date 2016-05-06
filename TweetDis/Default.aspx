@@ -32,7 +32,7 @@
         <button id="search-button" type="submit" name="submit" class="btn btn-primary btn-lg btn-block">Cari</button>
       </div>
       <div class="col-sm-2">
-        <button type="button" name="options" class="btn btn-primaryu btn-lg btn-block"
+        <button type="button" name="options" class="btn btn-primary btn-lg btn-block"
          data-toggle="collapse" data-target="#keyword-options">Pengaturan</button>
       </div>
     </div>
