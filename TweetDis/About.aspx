@@ -28,8 +28,10 @@
 			<br>
 			<br>
 			<section class="github-and-try">
+			  <div class ="text-center">
      			<a href="https://github.com/agilajah/tweetdis" class="btn btn-info btn-center">View on GitHub</a>
       			<a href="https://tweetdis.azurewebsites.net" class="btn btn-info btn-center">Try Now</a>
+      		  </div>
    			</section>
 			<br>
 			<br>
