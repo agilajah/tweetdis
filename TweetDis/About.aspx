@@ -27,7 +27,10 @@
 			</div>
 			<br>
 			<br>
-			<a href="https://tweetdis.azurewebsites.net" class="btn btn-info btn-lg center-block">View on Githug</a>
+			<section class="github-and-try">
+     			<a href="https://github.com/agilajah/tweetdis" class="btn btn-info btn-center">View on GitHub</a>
+      			<a href="https://tweetdis.azurewebsites.net" class="btn btn-info btn-center">Try Now</a>
+   			</section>
 			<br>
 			<br>
 			<br>
