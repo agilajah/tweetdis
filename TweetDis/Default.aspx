@@ -3,11 +3,9 @@
 
 <meta name="viewport" content="width=device-width">
 <meta charset="utf-8" />
-<title>TweetDis</title>
-<link rel="stylesheet" href="https://misc.adimaja.com/stima-tb3/Content/bootstrap.min.css">
-<link rel="stylesheet" href="https://misc.adimaja.com/stima-tb3/Content/main.css">
-
-<video src="https://misc.adimaja.com/stima-tb3/Content/timelapse-video.mp4" class="fullscreen" autoplay loop muted></video>
+<title>TweetDIS : Know.Better.</title>
+<link rel="stylesheet" href="/Content/bootstrap.min.css">
+<link rel="stylesheet" href="/Content/main.css">
 
 <div class="blocker"></div>
 
@@ -17,7 +15,7 @@
 
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
-      <img src="https://misc.adimaja.com/stima-tb3/Content/images/logo-tweetdis.png" alt="" class="img-responsive main-logo">
+      <img src="/Content/images/logo-tweetdis.png" alt="" class="img-responsive main-logo">
     </div>
   </div>
 
@@ -153,6 +151,6 @@
 
   return t;
 }(document, "script", "twitter-wjs"));</script>
-<script src="https://misc.adimaja.com/stima-tb3/Content/jquery.min.js" charset="utf-8"></script>
-<script src="https://misc.adimaja.com/stima-tb3/Content/bootstrap.min.js" charset="utf-8"></script>
-<script src="https://misc.adimaja.com/stima-tb3/Content/main.js" charset="utf-8"></script>
+<script src="/Content/jquery.min.js" charset="utf-8"></script>
+<script src="/Content/bootstrap.min.js" charset="utf-8"></script>
+<script src="/Content/main.js" charset="utf-8"></script>
