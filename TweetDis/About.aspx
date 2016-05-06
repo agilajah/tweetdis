@@ -27,7 +27,7 @@
 			</div>
 			<br>
 			<br>
-			<a href="https://tweetdis.azurewebsites.net" class="btn btn-info btn-lg">View on Githug</a>
+			<a href="https://tweetdis.azurewebsites.net" class="btn btn-info btn-lg center-block">View on Githug</a>
 			<br>
 			<br>
 			<br>
